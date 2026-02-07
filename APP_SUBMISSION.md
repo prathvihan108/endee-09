@@ -19,3 +19,11 @@ To demonstrate a professional production-grade setup, I have separated the syste
 - **Full Project Documentation:** [System Setup & Architecture](https://github.com/prathvihan108/resume-screening-app/blob/main/README.md)
 
 ---
+
+# Work done till now
+
+Day 1: Project Setup & Docker Configuration.
+
+Day 2: PDF Extraction & NLP Parsing Logic.
+
+Day 3: Endee Vector DB Integration & Ingestion.
