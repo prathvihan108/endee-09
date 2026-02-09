@@ -1,0 +1,15 @@
+# Web Framework
+fastapi
+uvicorn
+python-multipart
+
+# PDF Processing
+pypdf
+
+# AI & Embeddings
+sentence-transformers
+requests
+python-dotenv
+
+# Data Utilities
+pydantic
