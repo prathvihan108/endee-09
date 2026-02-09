@@ -1,0 +1,17 @@
+# Web Framework
+fastapi==0.99.1
+uvicorn==0.40.0
+python-multipart==0.0.22
+
+# Core Logic & Database
+endee==0.1.10
+pydantic==1.10.26
+
+pypdf==5.1.0
+
+# AI & Data (If you are using these directly in your code)
+sentence-transformers==5.2.2
+torch==2.10.0
+PyMuPDF==1.26.7
+
+python-dotenv==1.0.1
