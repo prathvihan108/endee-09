@@ -164,9 +164,11 @@ async def reset_database():
 @app.get("/stats")
 async def get_stats():
     try:
-        
+        # Re-fetch the index reference to clear any local cache
+        db_client.index = db_client.client.get_index(name=db_client.index_name)
         info = db_client.index.describe()
-        print(info)
+
+        print(f"DEBUG: Live Count from DB: {info.get('count')}")
         
         return {
             "total_documents": info.get("count", 0),
