@@ -22,13 +22,13 @@ Clone your forked repository which contains both the Endee core and the internsh
 Using HTTP:
 
 ```
-git clone https://github.com/prathvihan108/endee-09.git
+git clone https://github.com/prathvihan108/endee-prathvirajh-app-resume-screening.git
 ```
 
 Using SSH:
 
 ```
-git clone git@github.com:prathvihan108/endee-09.git
+git clone git@github.com:prathvihan108/endee-prathvirajh-app-resume-screening.git
 ```
 
 ### 2. Set up Endee Vector DB
@@ -129,7 +129,7 @@ Step 4: Start the Vite Frontend(Terminal 2)
 
 ```
 #Open new terminal
-# Navitage to the frontend directory(/endee-09/app-resume-screening/frontend)
+# Navitage to the frontend directory(/prathvirajh-app-resume-screening/app-resume-screening/frontend)
 
 # Install dependencies
 npm install
