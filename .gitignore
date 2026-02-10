@@ -17,9 +17,7 @@ data/*
 .vscode/
 .vscode/*
 
-# Frontend
-frontend/
-frontend/*
+
 
 __pycache__/
 .env
