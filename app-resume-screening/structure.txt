@@ -1,0 +1,46 @@
+.
+├── backend
+│   ├── core
+│   │   ├── embedder.py
+│   │   ├── parser.py
+│   │   └── __pycache__
+│   │       ├── embedder.cpython-310.pyc
+│   │       └── parser.cpython-310.pyc
+│   ├── main.py
+│   ├── processor.py
+│   ├── __pycache__
+│   │   └── main.cpython-310.pyc
+│   └── services
+│       ├── endee_client.py
+│       └── __pycache__
+│           └── endee_client.cpython-310.pyc
+├── frontend
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── public
+│   │   └── vite.svg
+│   ├── README.md
+│   ├── src
+│   │   ├── App.css
+│   │   ├── App.jsx
+│   │   ├── assets
+│   │   │   └── react.svg
+│   │   ├── components
+│   │   │   ├── CandidateCard.jsx
+│   │   │   ├── DatabaseStats.jsx
+│   │   │   ├── FileUpload.jsx
+│   │   │   └── SearchBar.jsx
+│   │   ├── index.css
+│   │   ├── main.jsx
+│   │   ├── pages
+│   │   │   └── Dashboard.jsx
+│   │   └── services
+│   │       └── api.js
+│   └── vite.config.js
+├── README.md
+├── requirements.txt
+└── structure.txt
+
+13 directories, 30 files
