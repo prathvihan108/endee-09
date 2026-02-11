@@ -1,4 +1,18 @@
+### Internship Assessment Project | Endee Labs
+
 # AI Resume Screening System
+
+  <a href="https://github.com/your-username">
+    <img src="https://img.shields.io/badge/Developer-Prathviraj%20Hanimanale%20(CMRIT)-007acc?style=flat&logo=visual-studio-code" height="60">
+  </a>
+
+---
+
+### 🚀 Project Overview
+
+This system, built for **Endee Labs**, leverages **FastAPI** and **React** to automate resume screening using a high-performance **Vector Database**.
+
+---
 
 This project is a high-performance resume screening tool built during my internship. It leverages the Endee Labs Vector Engine as a local database service to store and search candidate resumes using semantic AI embeddings..
 
@@ -182,6 +196,22 @@ The system follows a modular architecture that prioritizes data privacy and loca
 
 ---
 
+## 🔌 API Endpoints
+
+### 📄 Resume Management
+
+| Method   | Endpoint        | Description                                                   |
+| :------- | :-------------- | :------------------------------------------------------------ |
+| `POST`   | `/upload-batch` | Batch upload PDFs. Triggers parsing, redaction, and indexing. |
+| `GET`    | `/stats`        | Fetches document count and health status from Endee.          |
+| `DELETE` | `/clear-index`  | Wipes the current vector space.                               |
+
+### 🔍 Search & Intelligence
+
+| Method | Endpoint  | Description                                             |
+| :----- | :-------- | :------------------------------------------------------ |
+| `POST` | `/search` | Queries the pool and returns top-K matching candidates. |
+
 ## 🚀 Setup & Installation
 
 ### 1. Workspace Initialization
@@ -285,14 +315,14 @@ Step 2: Ensure your Hugging Face Token is set in .env file we created in /intern
 
 Step 3: Start the server on port 8000
 
-Note:virtual Environment(HG_venv) should be active while u run the "uvicorn" command or app
+**Note:virtual Environment(HG_venv) should be active while u run the "uvicorn" command or app**
 
 ```
 cd iapp-resume-screening
 uvicorn backend.main:app --reload --port 8000
 ```
 
-Verification: Open http://localhost:8000/docs. If you see the Swagger UI, your backend is alive and ready.
+**Verification:** Open http://localhost:8000/docs. If you see the Swagger UI, your backend is alive and ready.
 
 Step 4: Start the Vite Frontend(Terminal 2)
 
@@ -307,3 +337,29 @@ npm install
 npm run dev
 
 ```
+
+## 🙏 Acknowledgments
+
+- **Endee Labs:** For providing the high-performance Vector Engine and supporting this internship project.
+
+- **Hugging Face:** For the `all-MiniLM-L6-v2` transformer model used in our embedding pipeline.
+
+- **FastAPI & React:** For the robust frameworks that made this full-stack integration possible.
+
+---
+
+## 📧 Contact
+
+**Prathviraj Hanimanale**
+
+- **GitHub:** [prathvihan1008](https://github.com/prathvihan108/)
+
+- **Project Link:** [Project](https://github.com/prathvihan108/endee-prathvirajh-app-resume-screening)
+
+* **Email:** [prathvioct09@gmail.com](mailto:prathvioct09@gmail.com)
+
+---
+
+### 🙌 Thank You! 🙌
+
+This project represents a deep dive into the world of Vector Databases and NLP. Exploring the balance between AI performance and data privacy was an eye-opening experience that I’ve truly enjoyed.
